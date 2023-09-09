@@ -1,0 +1,18 @@
+// Media Queries for Tablets 
+
+@media screen and (max-width: 1024px) {
+    .branches-intro {
+        margin-top: 2rem;
+
+        .branches-intro-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 4rem;
+
+            .branches-intro-left {
+                width: 80%;
+                margin: 0 auto;
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+nav {
+    background: transparent;
+    width: 100vw;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    z-index: 11;
+
+    button {
+        display: none;
+    }
+}
+
+.window-scroll {
+    background: $color-primary;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.nav-container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+
+    a {
+        font-size: 0.9rem;
+        transition: $transition;
+
+        &:hover {
+            color: $color-bg2;
+        }
+    }
+}

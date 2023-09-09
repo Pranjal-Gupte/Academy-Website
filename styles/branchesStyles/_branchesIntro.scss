@@ -1,0 +1,14 @@
+.branches-intro {
+    margin-top: 3rem;
+
+    .branches-intro-container {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        gap: 5rem;
+
+        .branches-intro-right > p {
+            margin: 1.6rem 0 2.5rem;
+        }
+    }
+}
+

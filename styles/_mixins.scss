@@ -1,0 +1,15 @@
+@mixin button() {
+    display: inline-block;
+    background: $color-white;
+    color: $color-black;
+    padding: 1rem 2rem;
+    border: 1px solid transparent;
+    font-weight: 500;
+    transition: $transition;
+
+    &:hover {
+        background: transparent;
+        color: $color-white;
+        border-color: $color-white;
+    }
+}

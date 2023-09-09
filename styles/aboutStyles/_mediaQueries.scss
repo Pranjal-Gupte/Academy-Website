@@ -1,0 +1,58 @@
+// Media Queries for Tablets
+
+@media screen and (max-width: 1024px) {
+    .about-achievements {
+        margin-top: 2rem;
+
+        .about-achievements-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 4rem;
+
+            .about-achievements-left {
+                width: 80%;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .team {
+        .team-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+
+            .team-member {
+                padding: 1rem;
+            }
+        }
+    }
+}
+
+// Media Queries for Phones
+
+@media screen and (max-width: 600px) {
+    .about-achievements {
+        .about-achievements-right {
+            .achievements-cards {
+                grid-template-columns: 1fr 1fr;
+                gap: 0.7rem;
+            }
+        }
+    }
+
+    .team {
+        .team-container {
+            grid-template-columns: 1fr;
+            gap: 0.7rem;
+
+            .team-member {
+                padding: 0;
+
+                p {
+                    margin-bottom: 1.5rem;
+                }
+            }
+        }
+    }
+}

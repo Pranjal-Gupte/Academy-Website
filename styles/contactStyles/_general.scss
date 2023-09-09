@@ -1,0 +1,12 @@
+.contact {
+    .contact-container {
+        background: $color-bg1;
+        padding: 4rem;
+        display: grid;
+        grid-template-columns: 40% 60%;
+        gap: 4rem;
+        height: 30rem;
+        margin: 7rem auto;
+        border-radius: 1rem;
+    }
+}

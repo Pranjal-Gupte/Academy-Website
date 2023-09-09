@@ -1,0 +1,29 @@
+@media screen and (max-width: 1000px) {
+    .gallery {
+        flex-wrap: wrap;
+
+        .wrapper {
+            .gallery {
+                .image {
+                    width: calc(100% / 2);
+                }
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .gallery {
+        flex-wrap: wrap;
+
+        .wrapper {
+            .gallery {
+                .image {
+                    padding: 4px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  background: #1f2641;
+}
+
+.branches-intro {
+  margin-top: 3rem;
+}
+.branches-intro .branches-intro-container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 5rem;
+}
+.branches-intro .branches-intro-container .branches-intro-right > p {
+  margin: 1.6rem 0 2.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .branches-intro {
+    margin-top: 2rem;
+  }
+  .branches-intro .branches-intro-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+  .branches-intro .branches-intro-container .branches-intro-left {
+    width: 80%;
+    margin: 0 auto;
+  }
+}/*# sourceMappingURL=branches.css.map */
